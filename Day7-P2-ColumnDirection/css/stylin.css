@@ -1,0 +1,35 @@
+header{
+    background-color: #6a6994;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 10px 30px 10px 30px;
+    background-color: rgb(236, 225, 208);
+    height: 400px;
+    background-color: #c2c1e0;
+    
+    /* Mess with justify-content */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+}
+
+.item{
+    padding: 1em;
+    margin: 5px;
+    background-color: rgb(216, 205, 190);
+    height: 75%;
+    width: 25%;
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav{
+    display: flex;
+    background-color: #9f9797;
+    color: white;
+}
+
+nav ul{
+    text-decoration: none;
+    padding: 1em;
+    flex-direction: row;
+    display: flex;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 1em;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 1em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 1em;
+    margin: 10px 30px 30px 30px;
+    background-color: rgb(208, 218, 236);
+    height: 80%;
+}
+
+.item{
+    padding: 1em;
+    margin: 10px 30px 10px 30px;
+    background-color: rgb(135, 155, 168);
+    height: 75%;
+    width: 25%;
+    text-align: center;
+}
